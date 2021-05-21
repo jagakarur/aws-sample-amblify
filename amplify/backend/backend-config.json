@@ -1,6 +1,6 @@
 {
   "auth": {
-    "aws651f8c62": {
+    "myappd42d13b3": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -8,7 +8,7 @@
     }
   },
   "api": {
-    "aws": {
+    "myapp": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authaws651f8c62"
+              "userPoolId": "authmyappd42d13b3"
             }
           },
           "additionalAuthenticationProviders": []

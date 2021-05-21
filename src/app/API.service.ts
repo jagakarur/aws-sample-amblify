@@ -89,7 +89,7 @@ export type UpdateTodoInput = {
 };
 
 export type DeleteTodoInput = {
-  id?: string | null;
+  id: string;
 };
 
 export type ModelTodoFilterInput = {

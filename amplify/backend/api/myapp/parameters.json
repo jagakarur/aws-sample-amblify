@@ -1,10 +1,10 @@
 {
-  "AppSyncApiName": "aws",
+  "AppSyncApiName": "myapp",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
   "AuthCognitoUserPoolId": {
     "Fn::GetAtt": [
-      "authaws651f8c62",
+      "authmyappd42d13b3",
       "Outputs.UserPoolId"
     ]
   }
