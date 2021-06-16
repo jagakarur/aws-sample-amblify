@@ -73,12 +73,12 @@ export type ModelBooleanInput = {
 
 export type Todo = {
   __typename: "Todo";
-  id?: string;
-  name?: string;
+  id: string;
+  name: string;
   body?: string | null;
   completed?: boolean | null;
-  createdAt?: string;
-  updatedAt?: string;
+  createdAt: string;
+  updatedAt: string;
 };
 
 export type UpdateTodoInput = {

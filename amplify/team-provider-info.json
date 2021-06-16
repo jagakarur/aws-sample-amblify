@@ -16,5 +16,23 @@
         "myappd42d13b3": {}
       }
     }
+  },
+  "newmacdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myapp-newmacdev-224213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::938305284399:role/amplify-myapp-newmacdev-224213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::938305284399:role/amplify-myapp-newmacdev-224213-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myapp-newmacdev-224213-deployment",
+      "UnauthRoleName": "amplify-myapp-newmacdev-224213-unauthRole",
+      "StackName": "amplify-myapp-newmacdev-224213",
+      "StackId": "arn:aws:cloudformation:us-east-1:938305284399:stack/amplify-myapp-newmacdev-224213/75b71060-ce4c-11eb-9c91-0ac853a0932f",
+      "AmplifyAppId": "d1of3ldth0bfyo"
+    },
+    "categories": {
+      "auth": {
+        "myappd42d13b3": {}
+      }
+    }
   }
 }
